@@ -65,7 +65,7 @@ namespace Assets.Scripts
                 Vector2 controlledVelocity = (_currentVelocity.magnitude + Acceleration) * rotation; //immediate turn
                 Vector2 dragVelocity = _currentVelocity + (rotation * Acceleration); //dragged turn
                 _currentVelocity = (controlledVelocity - dragVelocity) * Mathf.Pow(AirControlModifier, 2) + dragVelocity;
-                rotateSpeedThisFrame *= Mathf.Min(TurnSlowDuringThrustModifier / (_currentVelocity.magnitude / (float)MaxSpeed), 1);
+                rotateSpeedThisFrame *= Mathf.Min(TurnSlowDuringThrustModifier / (Vector2.ClampMagnitude(_currentVelocity, MaxSpeed).magnitude / (float)MaxSpeed), 1);
             }
             else
             {
