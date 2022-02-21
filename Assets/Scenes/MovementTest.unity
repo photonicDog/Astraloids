@@ -176,7 +176,7 @@ Camera:
   far clip plane: 1000
   field of view: 60
   orthographic: 1
-  orthographic size: 5
+  orthographic size: 11.52
   m_Depth: -1
   m_CullingMask:
     serializedVersion: 2
@@ -217,6 +217,46 @@ PrefabInstance:
       propertyPath: m_Camera
       value: 
       objectReference: {fileID: 519420031}
+    - target: {fileID: 6438712621218119432, guid: 5fb24de9344401b4385b641af60c447a, type: 3}
+      propertyPath: MaxSpeed
+      value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: 6438712621218119432, guid: 5fb24de9344401b4385b641af60c447a, type: 3}
+      propertyPath: Bounciness
+      value: 0.95
+      objectReference: {fileID: 0}
+    - target: {fileID: 6438712621218119432, guid: 5fb24de9344401b4385b641af60c447a, type: 3}
+      propertyPath: RotateSpeed
+      value: 200
+      objectReference: {fileID: 0}
+    - target: {fileID: 6438712621218119432, guid: 5fb24de9344401b4385b641af60c447a, type: 3}
+      propertyPath: Acceleration
+      value: 0.1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6438712621218119432, guid: 5fb24de9344401b4385b641af60c447a, type: 3}
+      propertyPath: TurnCoefficient
+      value: 0.1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6438712621218119432, guid: 5fb24de9344401b4385b641af60c447a, type: 3}
+      propertyPath: DecelerationTime
+      value: 4
+      objectReference: {fileID: 0}
+    - target: {fileID: 6438712621218119432, guid: 5fb24de9344401b4385b641af60c447a, type: 3}
+      propertyPath: AirControlModifier
+      value: 0.1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6438712621218119432, guid: 5fb24de9344401b4385b641af60c447a, type: 3}
+      propertyPath: GravityScaleModifier
+      value: 0.01
+      objectReference: {fileID: 0}
+    - target: {fileID: 6438712621218119432, guid: 5fb24de9344401b4385b641af60c447a, type: 3}
+      propertyPath: TurnSlowDuringThrust
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 6438712621218119432, guid: 5fb24de9344401b4385b641af60c447a, type: 3}
+      propertyPath: TurnSlowDuringThrustModifier
+      value: 0.5
+      objectReference: {fileID: 0}
     - target: {fileID: 6438712621218119435, guid: 5fb24de9344401b4385b641af60c447a, type: 3}
       propertyPath: m_RootOrder
       value: 1
