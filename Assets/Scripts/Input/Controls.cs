@@ -15,7 +15,7 @@ using System.Collections.Generic;
 using UnityEngine.InputSystem;
 using UnityEngine.InputSystem.Utilities;
 
-namespace Scripts.Input
+namespace Assets.Scripts.Input
 {
     public partial class @Controls : IInputActionCollection2, IDisposable
     {
