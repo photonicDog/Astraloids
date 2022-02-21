@@ -82,7 +82,7 @@ namespace Assets.Scripts
             }
 
             //Cap velocity
-            Vector2.ClampMagnitude(_currentVelocity, MaxSpeed);
+            _currentVelocity = Vector2.ClampMagnitude(_currentVelocity, MaxSpeed);
 
             //Apply velocity
             playerPos += (Vector3)_currentVelocity * Time.deltaTime;
