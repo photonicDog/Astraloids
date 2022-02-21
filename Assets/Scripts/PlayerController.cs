@@ -13,7 +13,7 @@ namespace Assets.Scripts
         public float RotateSpeed;
         public float DecelerationTime;
         [Range(0f, 1f)]
-        public float GravityScaleModifier;
+        public float GravityModifier;
         [Range(0f, 1f)]
         public float AirControlModifier;
         [Range(0f, 1f)]
@@ -72,7 +72,7 @@ namespace Assets.Scripts
                 //Apply air resistance
                 _currentVelocity -= _currentVelocity * (MaxSpeed * Time.deltaTime) / DecelerationTime;
                 //Apply gravity
-                _currentVelocity.y -= GravityScaleModifier * 9.8f;
+                _currentVelocity.y -= GravityModifier;
             }
 
             //Check if we are rotating
