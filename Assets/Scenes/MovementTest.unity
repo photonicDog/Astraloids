@@ -176,7 +176,7 @@ Camera:
   far clip plane: 1000
   field of view: 60
   orthographic: 1
-  orthographic size: 11.52
+  orthographic size: 14
   m_Depth: -1
   m_CullingMask:
     serializedVersion: 2
@@ -219,7 +219,7 @@ PrefabInstance:
       objectReference: {fileID: 519420031}
     - target: {fileID: 6438712621218119432, guid: 5fb24de9344401b4385b641af60c447a, type: 3}
       propertyPath: MaxSpeed
-      value: 5
+      value: 8
       objectReference: {fileID: 0}
     - target: {fileID: 6438712621218119432, guid: 5fb24de9344401b4385b641af60c447a, type: 3}
       propertyPath: Bounciness
@@ -227,11 +227,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6438712621218119432, guid: 5fb24de9344401b4385b641af60c447a, type: 3}
       propertyPath: RotateSpeed
-      value: 200
+      value: 260
       objectReference: {fileID: 0}
     - target: {fileID: 6438712621218119432, guid: 5fb24de9344401b4385b641af60c447a, type: 3}
       propertyPath: Acceleration
-      value: 0.1
+      value: 0.2
       objectReference: {fileID: 0}
     - target: {fileID: 6438712621218119432, guid: 5fb24de9344401b4385b641af60c447a, type: 3}
       propertyPath: TurnCoefficient
@@ -239,11 +239,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6438712621218119432, guid: 5fb24de9344401b4385b641af60c447a, type: 3}
       propertyPath: DecelerationTime
-      value: 4
+      value: 12
       objectReference: {fileID: 0}
     - target: {fileID: 6438712621218119432, guid: 5fb24de9344401b4385b641af60c447a, type: 3}
       propertyPath: AirControlModifier
-      value: 0.1
+      value: 0.2
       objectReference: {fileID: 0}
     - target: {fileID: 6438712621218119432, guid: 5fb24de9344401b4385b641af60c447a, type: 3}
       propertyPath: GravityScaleModifier
@@ -255,7 +255,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6438712621218119432, guid: 5fb24de9344401b4385b641af60c447a, type: 3}
       propertyPath: TurnSlowDuringThrustModifier
-      value: 0.5
+      value: 0.68
       objectReference: {fileID: 0}
     - target: {fileID: 6438712621218119435, guid: 5fb24de9344401b4385b641af60c447a, type: 3}
       propertyPath: m_RootOrder
